@@ -14,10 +14,7 @@ let editStatus = false;
 let id = "";
 
 window.addEventListener("DOMContentLoaded", async (e) => {
-  // const querySnapshot = await getTasks();
-  // querySnapshot.forEach((doc) => {
-  //   console.log(doc.data());
-  // });
+
 
   onGetTasks((querySnapshot) => {
     tasksContainer.innerHTML = "";
